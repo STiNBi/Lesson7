@@ -1,0 +1,430 @@
+@import url(reset.css);
+@import url(font.css);
+
+.main{
+    height: 3580px;
+    width: 1440px;
+    border: 1px solid black;
+    margin: 0px auto;
+    /* display: flex; */
+}
+
+.header{
+    height: 120px;
+    width: 1440px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    height: 570px;
+    width: 1440px;
+    margin-bottom: 59px;
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.left_slider{
+    height: 570px;
+    width: 720px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_slider{
+    height: 570px;
+    width: 720px;
+    background-color: black;
+    /* border: 1px solid black; */
+}
+
+.caption_black{
+    width: 502px;
+    height: 309px;
+    margin: 108px 0 0 105px;
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+
+.date_lifestyle_caption_black{
+    width: 100%;
+    height: 81px;
+    display: flex;
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+
+.lifestyle_caption_black{
+    width: 100%;
+    height: 81px;
+    color: white;
+    text-decoration: underline;
+    display: flex;
+    justify-content: right;
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+
+.date_caption_black{
+    width: 100%;
+    height: 81px;
+    display: flex;
+    color: white;
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+
+.text_caption_black{
+    width: 100%;
+    height: 113px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+}
+
+.cap_name{
+    width: 100%;
+    height: 42px;
+    /* border: 1px solid white; */
+    display: block;
+}
+
+.cap_text{
+    width: 100%;
+    height: 71px;
+    display: flex;
+    align-items: end;
+    /* border: 1px solid white; */
+}
+
+.block_to_button{
+    width: 100%;
+    height: 114px;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    /* border: 1px solid white; */
+}
+
+.button_readme{
+    width: 198px;
+    height: 55px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.slider_featured{
+    width: 1142px;
+    height: 648px;
+    margin: 59px auto;
+    border: 1px solid black;
+}
+
+.featured_box{
+    width: 100%;
+    height: 28px;
+    border: 1px solid black;
+}
+
+.sliders_for_posts{
+    width: 100%;
+    height: 616px;
+    margin-bottom: 63px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider_post{
+    width: 559px;
+    height: 616px;
+    border: 1px solid black;
+}
+
+.feature_img_box{
+    width: 100%;
+    height: 389px;
+    margin-top: 23px;
+    /* border: 1px solid black; */
+}
+
+.date_lifestyle_slider_post{
+    width: 100%;
+    height: 23px;
+    display: flex;
+    border: 1px solid black;
+}
+
+.date_slider_post{
+    width: 100%;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.lifestyle_slider_post{
+    width: 100%;
+    height: 23px;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    text-decoration: underline;
+    border: 1px solid black;
+}
+
+.text1_slider_post{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: end;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.text2_slider_post{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: end;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.slider_featured2{
+    width: 1142px;
+    height: 325px;
+    margin: 59px auto 64px;
+    border: 1px solid black;
+}
+
+.sliders_for_posts2{
+    width: 100%;
+    height: 321px;
+    /* margin-bottom: 63px; */
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature_img_box2{
+    width: 363px;
+    height: 240px;
+    border: 1px solid black;
+}
+
+.slider_post2{
+    width: 363px;
+    height: 319px;
+    border: 1px solid black;
+}
+
+.date_lifestyle_slider_post2{
+    width: 100%;
+    height: 36px;
+    display: flex;
+    border: 1px solid black;
+}
+
+.date_slider_post2{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    padding-top: 12px;
+    border: 1px solid black;
+}
+
+.lifestyle_slider_post2{
+    width: 100%;
+    height: 22px;
+    padding-top: 14px;
+    display: flex;
+    justify-content: right;
+    text-decoration: underline;
+    font-size: 13px;
+    border: 1px solid black;
+}
+
+.text1_slider_post2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: end;
+    font-size: 20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.box_for_button_SeeAll{
+    width: 100%;
+    height: 42px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 71px;
+}
+
+.button_SeeAll{
+    width: 238px;
+    height: 42px;
+    background-color: #303030; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.slider_new_ivent{
+    width: 1143px;
+    height: 360px;
+    margin: 0px auto;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.slider_new_ivent_post{
+    width: 100%;
+    height: 360px;
+    margin: 0px auto;
+    background-color: black;
+}
+
+.box_date_subscribe{
+    width: 335px;
+    height: 100px;
+    margin: 136px auto 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.date_in_black_box{
+    width: 100%;
+    height: 25px;
+    font-size: 34px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.button_subscribe_in_black_box{
+    width: 198px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    margin: 0px auto;
+    border: 1px solid white;
+}
+
+.header_interviews{
+    width: 1143px;
+    height: 15px;
+    margin: 0px auto;
+    font-size: 16px;
+    margin-bottom: 37px;
+}
+
+.sliders_for_posts3{
+    width: 100%;
+    height: 321px;
+    /* margin-bottom: 63px; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider_featured3{
+    width: 1142px;
+    height: 325px;
+    margin: 0px auto 37px;
+    /* border: 1px solid black; */
+}
+
+.date_slider_post3{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    padding-top: 12px;
+    /* border: 1px solid black; */
+}
+
+.lifestyle_slider_post3{
+    width: 100%;
+    height: 22px;
+    padding-top: 14px;
+    display: flex;
+    justify-content: right;
+    text-decoration: underline;
+    font-size: 13px;
+    /* border: 1px solid black; */
+}
+
+.text1_slider_post3{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: end;
+    font-size: 20px;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+
+.box_for_button_SeeAll2{
+    width: 100%;
+    height: 42px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.box_for_news{
+    width: 1141px;
+    height: 455px;
+    margin: 0px auto 95px;
+    /* border: 1px solid black; */
+}
+
+.slider_featured4{
+    width: 1142px;
+    height: 325px;
+    margin: 0px auto 32px;
+    /* border: 1px solid black; */
+}
+
+.box_for_interviews{
+    width: 1141px;
+    height: 457px;
+    margin: 0px auto;
+    /* border: 1px solid black; */
+    margin-bottom: 39px;
+}
+
+.last_suffix_box{
+    width: 1440px;
+    height: 142px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.suffix_name_footer{
+    width: 142px;
+    height: 27px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+
+.designed_by_suffix{
+    width: 102px;
+    height: 18px;
+    font-size: 13px;
+    color: white;
+} 
